@@ -1,3 +1,9 @@
+# This is an updated fork of Ludonope/BFPortalUnleashed -> Sploric/BFPortalUnleashed
+
+This fork just adds support for new blocks. The working plugin address is https://www.emildahlberg.com/BFPortalUnleashed/dist/manifest.json
+
+Below is the original readme with the plugin link changed.
+
 # Not maintained anymore
 
 This is BF2042 and the game refuses to run on my machine (it started nice during the beta and then got worse with every update).
@@ -27,7 +33,7 @@ Auto-completion™ included.
 4. Click on `Add plugin` and enter the following url
 
 ```txt
-https://ludonope.github.io/BFPortalUnleashed/dist/manifest.json
+https://www.emildahlberg.com/BFPortalUnleashed/dist/manifest.json
 ```
 
 Now when you go to the Battlefield Portal rules editor you should see the text editor popup after a few seconds :)
