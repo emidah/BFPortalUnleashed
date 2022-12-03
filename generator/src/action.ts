@@ -101,7 +101,7 @@ export class BAction extends Named {
                             writer.write(' && \n')
                         }
                         if (p[n]) {
-                            writer.indent(n > 0 ? 1 : 0).write(`(param${n}.isAny || [${pList}].includes(param${n}.valueType))`)
+                            writer.indent(n > 0 ? 1 : 0).write(`(param${n}.isAny || [${pList}].includes(param${n}["valueType"]))`)
                         } else {
                             writer.indent(n > 0 ? 1 : 0).write(`(typeof param${n} == 'undefined')`)
                         }
@@ -114,7 +114,7 @@ export class BAction extends Named {
                 }
                 writer.inlineBlock(() => {
                     const call = transposed.map((_, i) => {
-                        return `\${param${i} ? param${i}.valueType : 'undefined'}`
+                        return `\${param${i} ? param${i}["valueType"] : 'undefined'}`
                     }).join(', ')
                     writer.writeLine(`throw \`Invalid function signature called ${this.name}(${call})\``)
                 })
