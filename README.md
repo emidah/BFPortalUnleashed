@@ -1,6 +1,6 @@
-# This is an updated fork of Ludonope/BFPortalUnleashed -> Sploric/BFPortalUnleashed
+# This is an updated fork of BFPortalUnleashed by Ludonope, last updated by Sploric
 
-This fork just adds support for new blocks. The working plugin address is https://www.emildahlberg.com/BFPortalUnleashed/dist/manifest.json
+This fork just adds support for new blocks as of 2022-12-03. The working plugin address is https://www.emildahlberg.com/BFPortalUnleashed/dist/manifest.json
 
 Below is the original readme with the plugin link changed.
 
